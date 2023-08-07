@@ -118,7 +118,7 @@ The created <b>Liver-Tumor-master</b> dataset has the following folder structure
 </pre>
 
 <h3>
-3.3 Split master to test, train and valid 
+3.4 Split master to test, train and valid 
 </h3>
 By using Python script <a href="./projects/Liver-Tumor/generator/split_master.py">split_master.py</a>,
  we have finally created <b>Liver-Tumor</b> dataset from the Liver-Tumor-master.<br>
@@ -135,15 +135,16 @@ By using Python script <a href="./projects/Liver-Tumor/generator/split_master.py
     └─masks
 </pre>
 
-<!----- 2023/08/07 
-  -----> 
 <b>train/images samples:</b><br>
 <img src="./asset/train_images_samples.png" width="1024" height="auto">
 <br>
 <b>train/masks samples:</b><br>
 <img src="./asset/train_masks_samples.png"  width="1024" height="auto">
 <br>
-
+<br>
+<b>Dataset inspection</b><br>
+<img src="./asset/dataset_inspection.png">
+<br>
 <h2>
 4 Train TensorflowUNet Model
 </h2>
