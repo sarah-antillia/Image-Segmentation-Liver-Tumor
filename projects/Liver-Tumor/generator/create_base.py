@@ -31,6 +31,8 @@ scan = nib.load('/path/to/stackOfimages.nii.gz')
 scan = scan.get_fdata()
 print(scan.shape)
 (num, width, height)
+or 
+(width, height, num)
 """
 
 
