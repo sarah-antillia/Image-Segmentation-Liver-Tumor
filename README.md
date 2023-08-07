@@ -88,9 +88,9 @@ to create jpg image and mask files.<br>
 <pre>
 >python create_base.py
 </pre>
-, by which Tumor-base dataset will be created.<br>
+, by which Liver-base dataset will be created.<br>
 <pre>
-./Tumor-base
+./Liver-base
 ├─images
 └─masks
 </pre>
@@ -101,8 +101,7 @@ to create jpg image and mask files.<br>
 </h3>
 
 By using Python script <a href="./projects/Liver-Tumor/generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>,
- we have created <b>Liver-Tumor-master</b> dataset from the original image files in <b>CXR_png</b> folder and mask files in <b>masks</b>
- folder.<br>
+ we have created <b>Liver-Tumor-master</b> dataset from the <b>Liver-Base</b> dataset.<br>
 The script performs the following image processings.<br>
 <pre>
 1 Create 256x256 square images from original jpg files in <b>Tumor-base/images</b> folder..
@@ -110,9 +109,9 @@ The script performs the following image processings.<br>
 3 Create flipped and mirrored images and masks of size 256x256 to augment the resized square images and masks.
 </pre>
 
-The created <b>Liver-Tumor-master</b> dataset has the following folder structure.<br>
+The created <b>Liver-master</b> dataset has the following folder structure.<br>
 <pre>
-./Liver-Tumor-master
+./Liver-master
  ├─images
  └─masks
 </pre>
@@ -121,7 +120,7 @@ The created <b>Liver-Tumor-master</b> dataset has the following folder structure
 3.4 Split master to test, train and valid 
 </h3>
 By using Python script <a href="./projects/Liver-Tumor/generator/split_master.py">split_master.py</a>,
- we have finally created <b>Liver-Tumor</b> dataset from the Liver-Tumor-master.<br>
+ we have finally created <b>Liver-Tumor</b> dataset from the <b>Liver-Tumor-master</b>.<br>
 <pre>
 ./Liver-Tumor
 ├─test
