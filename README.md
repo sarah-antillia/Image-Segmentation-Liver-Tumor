@@ -79,7 +79,7 @@ The dataset <b>3D Liver segmentation</b> has the following folder structure.<br>
 ├─imagesTr
 └─labelsTr
 </pre>
-These folders contain 300 liver_*.nii files repectively.<br>
+These folders contain 300 liver_*.nii files respectively.<br>
 <h3>
 3.2 Create base image and mask dataset
 </h3>
