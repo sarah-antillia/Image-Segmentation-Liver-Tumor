@@ -73,13 +73,13 @@ Image-Segmentation-Liver-Tumor
 https://www.kaggle.com/datasets/prathamgrover/3d-liver-segmentation
 </pre>
 </pre>
-The dataset <b>Liver-Tumor Segmentation</b> has the following folder structure, which contains seven categories.<br>
+The dataset <b>3D Liver segmentation</b> has the following folder structure.<br>
 <pre>
 ./Task03_Liver_rs
 ├─imagesTr
 └─labelsTr
 </pre>
-These folders contain liver_*.nii files repectively.<br>
+These folders contain 300 liver_*.nii files repectively.<br>
 <h3>
 3.2 Create base image and mask dataset
 </h3>
