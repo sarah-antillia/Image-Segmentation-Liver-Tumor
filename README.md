@@ -143,7 +143,7 @@ By using Python script <a href="./projects/Liver-Tumor/generator/split_master.py
 <br>
 <br>
 <b>Dataset inspection</b><br>
-<img src="./asset/dataset_inspection.png">
+<img src="./asset/dataset_inspection.png" width="720" height="auto">
 <br>
 <h2>
 4 Train TensorflowUNet Model
@@ -167,7 +167,6 @@ Please move to ./projects/Liver-Tumor directory, and run the following bat file.
 [model]
 image_width    = 256
 image_height   = 256
-
 image_channels = 3
 num_classes    = 1
 base_filters   = 16
@@ -209,7 +208,6 @@ blur      = True
 binarize  = True
 threshold = 74
 </pre>
-
 
 The training process has just been stopped at epoch 43 by an early-stopping callback as shown below.<br><br>
 <img src="./asset/train_console_output_at_epoch_43_0807.png" width="720" height="auto"><br>
